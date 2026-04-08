@@ -1,0 +1,27 @@
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+li a {
+    padding: 10px 15px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    background-color: darkslategray;
+    border-radius: 4px;
+    padding: 1px;
+}

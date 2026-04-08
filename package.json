@@ -1,0 +1,22 @@
+{
+  "name": "treinocode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron app/view/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^40.8.0",
+    "electron-builder": "^26.8.1"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "pg": "^8.20.0"
+  }
+}

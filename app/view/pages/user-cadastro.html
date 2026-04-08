@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro de Usuário</title>
+        <link rel="stylesheet" href="../assets/css/user-cadastro.css">
+        <link rel="stylesheet" href="../assets/layout/navbar.css">
+        <link rel="stylesheet" href="../assets/layout/form.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a class="home" href="./home.html">Home</a>
+                    <a class="explorer" href="../index.html">Explorer</a>
+                    <a class="siginin" id="btnsiginin"
+                        href="./user-login.html">Sigin In</a>
+                    <a class="siginup" id="btnsiginup"
+                        href="./user-cadastro.html">Sigin Up</a>
+                </li>
+            </ul>
+        </nav>
+        <form id="form" class="form">
+            <h3>Cadastro de Usuário</h3>
+            <div class="formulario">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+                <label for="cpf">CPF</label>
+                <input  type="text" id="cpf" name="cpf">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha">
+            </div>
+            <div class="buttons">
+                <button type="button" id="submit">Cadastrar</button>
+                <a>Cadastrar como colaborador</a>
+                <a>Já é cadastrado</a>
+            </div>
+        </form>
+        <script type="module" src="../assets/js/user.js"></script>
+    </body>
+</html>
